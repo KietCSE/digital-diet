@@ -1,16 +1,30 @@
 # Digital Diet
 
 Build a browser extension that helps users detox from the internet by reducing the time they spend on distracting websites. 
-Target Browsers: Chrome, Firefox, Safari, Opera, Edge.
+Target Browsers: Chrome, Firefox, Safari, Opera, Edge. Support many modes: 
+    - Block website completely 
+    - Set time for blocking and unblocking alternatively
+    - Redirect website instead of blocking 
+    - Delay scroll video (TikTok, Youtube, ...)
+    - Track time for each website and draw insight (data is stored in local browser for private save, you can turn on/off this feature)
+    - Send email daily for summary performace (you can turn on/off this feature)
 
-Success Criteria:
-- Good UI/UX: The extension should be easy to use and visually appealing.
-- Customizable: Users should be able to add/remove websites from the list of distracting websites.
-- Time Tracking: The extension should track the time spent on each website.
-- **Rate of users do not delete the extension within a week of installing it >= 70%**
+## User manual: 
+**1 Block** Create card -> add url target -> save -> set blocking time
+![Block](./img/block.gif)
+
+**2 Delay scroll video** Create card -> add url target -> save -> set blocking time -> go to setting -> add number of seconds and turn on delay feature
+![Delay](./img/delay.gif)
+
+**3 Unblock and block** Create card -> add url target -> save -> set blocking time -> set unblocking time 
+![Delay](./img/block+unblock.gif)
+
+**4 Redirect** Create card -> add url target -> add url redirect -> save -> set blocking time
+![Delay](./img/redirect.gif)
 
 
-![Alt Text mô tả GIF](./img/ezgif-4-1aeff7da1c.gif)
+## How to use it
+
 
 
 ## Build project
