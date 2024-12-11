@@ -9,6 +9,10 @@ Success Criteria:
 - Time Tracking: The extension should track the time spent on each website.
 - **Rate of users do not delete the extension within a week of installing it >= 70%**
 
+
+![Alt Text mô tả GIF](./img/ezgif-4-1aeff7da1c.gif)
+
+
 ## Build project
 ```sh
 npm run build
