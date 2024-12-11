@@ -2,6 +2,7 @@
 
 Build a browser extension that helps users detox from the internet by reducing the time they spend on distracting websites. 
 Target Browsers: Chrome, Firefox, Safari, Opera, Edge. Support many modes: 
+
     - Block website completely 
     - Set time for blocking and unblocking alternatively
     - Redirect website instead of blocking 
